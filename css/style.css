@@ -1,0 +1,309 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:400,700,800&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 1626px;
+}
+
+header {
+    /* widows: 1000px; */
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 137px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.navigation h2 {
+    color: deepskyblue;
+    font-size: 2rem;
+}
+
+.navigation__list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.navigation__link a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+main > h2 {
+    font-size: 3.0625rem;
+    text-align: center;
+    padding-top: 130px;
+    margin: 0 0 22px 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.button_text{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.center_container{
+    height: 67px;
+    width: 440px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+.wrapper_container {
+    background-color: #08A6E4;
+    height: 67px;
+    width: 440px;
+    border-radius: 33px;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 1);
+
+}
+
+.mainBackground {
+    background-image: url("../images/Background.png");
+    height: 58vh;
+    background-position: -50px 0; 
+    background-size: 107%;
+    background-repeat: no-repeat;
+}
+
+.statistic{
+    height: 531px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    top: -34px;
+    /* box-shadow: 0px -5px 80px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box; */
+}
+
+.flex_col-direction{
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size:2.25rem;
+}
+
+.flex_col-direction > h3{
+    text-align: center;
+    padding:100px;
+}
+
+.circle, red_circle {
+    width: 64px;
+    height: 64px;
+    background: #FB3B64 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    position: relative
+}
+
+.red_circle:after{
+    background-image: url("../images/Person.svg");
+    content: "";
+    position: absolute;
+    right: -11px;
+    width:44px;
+    height:52px;
+}
+
+.blue_circle {
+    background: #08A6E4 0% 0% no-repeat padding-box;
+}
+
+.blue_circle:after{
+    background-image: url("../images/Eye.svg");
+    content: "";
+    position: absolute;
+    right: -22px;
+    top: 14px;
+    width:65px;
+    height:37px;
+}
+
+.green_circle {
+    background: #55DFB4 0% 0% no-repeat padding-box;
+}
+
+.green_circle:after{
+    background-image: url("../images/Catalog.svg");
+    content: "";
+    position: absolute;
+    right: -22px;
+    top: 8px;
+    width:52px;
+    height:48px;
+}
+
+.flex_row-direction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 422px;
+}
+
+.flex_row--items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 116px;
+    height: 140px;
+}
+
+.flex_row--items > p:nth-child(2) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;    
+    font-size: 20px;
+    letter-spacing: 5.96px;
+}
+
+.flex_row--items > p:nth-child(3){
+    font-size: 1,0625rem;
+    color: #A5A5A5
+}
+
+
+.second_article{
+    background-color:#F7F7F7;
+}
+
+.second_article_container{
+    width: 1124px;
+    margin: 0 auto;
+    padding: 105px 0;    
+}
+
+h3 + p {
+    font-family: Open Sans sans-serif;
+    text-align: left;
+}
+
+.hr_line {
+    border: 2px solid #FB3B64;
+    width: 327px;
+}
+
+.first_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;  
+    padding: 0 118px 0 35px;
+    position: relative; /*parent element for .macbook2_bacground should have position relative*/
+    z-index: 2;
+}
+.first_box--items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: flex-start;
+    width:416px;
+    height: 188px;
+    padding: 91px 0;  
+}
+
+.macbook2_bacground{
+    background: url('../images/Macbook.png') 0% 0% no-repeat padding-box;
+    content: "";
+    width:386px;
+    height:219px;
+    background-size: contain;
+    position: relative;
+    }
+
+.macbook2_bacground:after{
+    content: "";
+    position: absolute;
+    width: 181px;
+    height: 181px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    background: #FB3B64 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    right: 0px;
+    top: -30px;
+    z-index: -1;    
+}
+
+.second_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;  
+    padding: 0 118px 0 35px;
+    position: relative; 
+    z-index: 2; 
+    margin: 37px 0;
+    padding: 0 70px;
+
+}
+
+.first_box--items > p {
+    text-align: left;
+}
+
+.second_box--items > .hr_line{
+    border-color: #07ACE6;
+}
+
+.iPhone_bacground{
+    background: transparent url('../images/iPhone.png') 0% 0% no-repeat padding-box;
+    content: "";
+    width: 426px;
+    height: 328px;
+    background-size: cover;
+    position: relative;
+    margin:29px 0;
+}
+
+.iPhone_bacground:after{
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    background: #07ACE6 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    z-index: -1;
+    top: -18px;
+}
+
+.second_box--items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: flex-start;
+    width:416px;
+    height: 188px;
+    padding: 91px 0;  
+}
+
+
