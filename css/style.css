@@ -307,3 +307,34 @@ h3 + p {
 }
 
 
+.third_box{
+    width: 623px;
+    position: relative;
+}
+
+.third_box--items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    height: 230px; 
+    padding: 70px 36px;
+    background-color: white; 
+}
+div.third_box > div > h3{
+    width: 346px;
+}
+.third_box--items > .hr_line{
+    background-color: #55DFB4;
+
+}
+
+.fourth-box{
+    position: absolute;
+    top: 0;
+    left: 683px;
+    content: "";
+    width: 440px;
+    height: 370px;
+    background-color: #55DFB4;
+}
