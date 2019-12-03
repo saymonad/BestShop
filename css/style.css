@@ -200,7 +200,7 @@ h3 {
 }
 
 h3 + p {
-    font-family: Open Sans sans-serif;
+    font-family: Open Sans, sans-serif;
     text-align: left;
 }
 
@@ -321,12 +321,11 @@ h3 + p {
     padding: 70px 36px;
     background-color: white; 
 }
-div.third_box > div > h3{
+.third_box--items > h3{
     width: 346px;
 }
 .third_box--items > .hr_line{
-    background-color: #55DFB4;
-
+    border: 2px solid #55DFB4;
 }
 
 .fourth-box{
@@ -337,4 +336,135 @@ div.third_box > div > h3{
     width: 440px;
     height: 370px;
     background-color: #55DFB4;
+}
+
+.fourth-box:after{
+    position: absolute;
+    left:62px;
+    top: 96px;
+    content: "";
+    width: 296px;
+    height: 208px;
+    background: transparent url('../images/Trumpet.png') 0% 0% no-repeat padding-box;
+    background-size: contain; 
+}
+
+.price{
+    margin: 0 auto;
+    width: 1266px;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.third_article_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > h3{
+    text-align: center;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 34px 0 0 14px;
+}
+
+.price_Box{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 372px;
+    height: 461px;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    position: relative;
+    margin: 0 71px 0 0;
+}
+
+.dolar_price{
+    font-size: 2.875rem;
+    color: #FB3B64;
+    font-family: Open Sans, sans-serif;
+    font-weight: lighter;
+    height: 64px;
+    margin: 14px 0 69px 0;
+}
+
+.price_Box.professional > .dolar_price{
+    color: #07ACE6;
+}
+
+.premium .dolar_price{
+    color: #55DFB4;
+}
+
+div.price_Box.professional > p.dolar_price{
+    margin: 14px 0 5px 0;
+    height: 70px;
+}
+
+div.price_Box.premium > p.dolar_price{
+    margin: 14px 0 5px 0;
+}
+
+div.price_Box.professional > span:nth-child(3), div.price_Box.premium > span:nth-child(3){
+    margin: 14px 0 61px 0;
+    font: Bold 12px/1px Raleway;
+    color: #13253B;
+    letter-spacing: 0;
+}
+
+div.price_Box.premium > span:nth-child(3){
+    margin: 14px 0 50px 0;
+}
+
+span{
+    margin: 0 10px 20px 10px;
+    
+}
+
+img{
+    width: 11px;
+    height: 11px;
+    margin: 4px 10px 4px 0;
+}
+
+.professional{
+    width: 405px;
+    height: 500px;
+    border: 1px solid #07ACE6;
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+.premium{
+    border: 1px solid #55DFB4;
+}
+
+.begin_container {
+    background-color: #EB476E;
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    position:absolute;
+    bottom: -25px;
+    left:111px;
+}
+
+div.price_Box.professional > div > div{
+    width: 165px;
+    background-color:#07ACE6;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+
+.price_Box.premium > div > div{
+    background-color:#55DFB4;
 }
