@@ -22,7 +22,6 @@ header {
     padding: 19px 137px;
     background-color: rgba(0, 0, 0, 0);
     box-shadow: 0px 3px 6px #00000029;
-    opacity: 1;
 }
 
 .navigation h2 {
@@ -467,4 +466,130 @@ div.price_Box.professional > div > div{
 
 .price_Box.premium > div > div{
     background-color:#55DFB4;
+}
+
+.contact_form{
+    margin: 155px 365px 59px 365px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact_form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 111px;
+}
+.contact_form-info > p:nth-child(1){
+    text-align: left;
+    font: 49px/57px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    margin-bottom: 22px;  
+}
+
+.contact_form-info > p:nth-child(2){
+    text-align: left;
+    margin-bottom: 43px;
+}    
+
+.contact_form-info-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_form-info-items > p{
+    text-align: left;
+    font: Semibold 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #A5A5A5;
+}  
+.contact_form-info-items img{
+    width: 27px;
+    height: 27px; 
+    margin-right: 10px; 
+}  
+.contact_form-filelds{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 372px;
+}
+.contact_form-filelds-items{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;    
+    }
+
+.contact_form-filelds-items p{
+    text-align: left;
+    font: Bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #08A6E4;
+    margin-bottom: 42px;   
+}
+.contact_form-filelds-items > p:nth-child(3){
+    margin-top: 42px; 
+}
+
+.contact_form-filelds-items p:nth-child(2){
+    margin: 42px 0 42px 0;
+}
+
+.clause{
+    display: flex;
+    flex-direction: row;
+}    
+
+
+div.clause > p{
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 12px;
+    line-height:17px;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+.checkbox{    
+    padding: 0 12px 0 12px;
+    height: 24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #95989A;
+    border-radius: 4px;
+    background: url('../workshop-assets/Checkmark.svg') 50% 50% no-repeat padding-box;
+    margin: 0 10px 0 0;
+} 
+
+
+.button_send{
+    width: 226px;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 35px;
+    text-align: center;
+    padding: 20px 0 19px 0;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+
+input {
+    border: 0;
+    height: 0;
+    border-bottom: 1px solid #95989A;
+}
+
+
+footer{
+    top: 16px;
+    left: 136px;
+    width: 142px;
+    height: 37px;
+    text-align: left;
+    font: 32px/37px Raleway;
+    letter-spacing: 0;
+    color: #08A6E4;
 }
