@@ -584,12 +584,36 @@ input {
 
 
 footer{
-    top: 16px;
-    left: 136px;
-    width: 142px;
-    height: 37px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+}
+
+.foot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 136px;
+}
+.foot-container_names {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-container_names span:nth-child(1){
     text-align: left;
-    font: 32px/37px Raleway;
+    font: Light 26px/30px Raleway;
     letter-spacing: 0;
     color: #08A6E4;
+}
+.foot-container_names span:nth-child(2){
+    text-align: left;
+    font: 400 11px/15px Open Sans;
+    letter-spacing: 0;
+    color: #A5A5A5;    
+}
+
+.foot-container_icons img{
+    width: 24px;
+    height: 24px;
+
 }
