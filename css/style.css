@@ -1,6 +1,4 @@
-
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,700,800&display=swap');
 
 body {
     background-color: white;
@@ -8,6 +6,8 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
     width: 1626px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
 }
 
 header {
@@ -25,8 +25,10 @@ header {
 }
 
 .navigation h2 {
-    color: deepskyblue;
-    font-size: 2rem;
+    text-align: left;
+    font: 300 32px/37px Raleway;
+    letter-spacing: 0;
+    color: #08A6E4;
 }
 
 .navigation__list ul {
@@ -38,29 +40,42 @@ header {
     margin: 0 20px;
 }
 .navigation__link a {
-    padding: 10px;
+    padding: 28px 0 23px 0;
+    margin: 0 95px 0 0;
     text-decoration: none;
-    color: black;
-    font-size: 11px;
+    text-align: center;
+    font: 700 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #A5A5A5;
+}
+
+.navigation__link a:hover {
+    color:#000000; 
+    border-bottom: 4px solid #08A6E4; 
+    transition: ease-out 0.5s;  
 }
 
 main > h2 {
-    font-size: 3.0625rem;
     text-align: center;
     padding-top: 130px;
     margin: 0 0 22px 0;
-}
+    font: 400 49px/57px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    }
 
 p {
     text-align: center;
-    font-size: 1rem;
+    font: Regular 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #000000;
 }
 
 .button_text{
-    font-size: 1rem;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    text-align: center;
+    font: 700 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
 }
 
 .center_container{
@@ -79,7 +94,6 @@ p {
     align-items: center;
     justify-content: center;  
     box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 1);
-
 }
 
 .mainBackground {
@@ -176,15 +190,19 @@ h3 {
 }
 
 .flex_row--items > p:nth-child(2) {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;    
-    font-size: 20px;
+    text-align: center;
+    font: 800 20px/24px Raleway, sans-serif;
     letter-spacing: 5.96px;
+    color: #000000;
+
+
 }
 
 .flex_row--items > p:nth-child(3){
-    font-size: 1,0625rem;
-    color: #A5A5A5
+    text-align: center;
+    font: 400 17px/20px Raleway;
+    letter-spacing: 0;
+    color: #A5A5A5;
 }
 
 
@@ -361,6 +379,7 @@ h3 + p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 180px 0 180px;
 }
 
 section > h3{
@@ -369,7 +388,7 @@ section > h3{
 
 h4{
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     margin: 34px 0 0 14px;
 }
@@ -384,14 +403,21 @@ h4{
     border: 1px solid #FB3B64;
     border-radius: 18px;
     position: relative;
-    margin: 0 71px 0 0;
 }
+
+.price_Box.professional{
+   margin-right: 58px; 
+}
+.price_Box.basic{
+    margin-right: 59px; 
+ }
+
 
 .dolar_price{
     font-size: 2.875rem;
     color: #FB3B64;
-    font-family: Open Sans, sans-serif;
-    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     height: 64px;
     margin: 14px 0 69px 0;
 }
@@ -415,7 +441,7 @@ div.price_Box.premium > p.dolar_price{
 
 div.price_Box.professional > span:nth-child(3), div.price_Box.premium > span:nth-child(3){
     margin: 14px 0 61px 0;
-    font: Bold 12px/1px Raleway;
+    font: 700 12px/1px Raleway;
     color: #13253B;
     letter-spacing: 0;
 }
@@ -426,6 +452,11 @@ div.price_Box.premium > span:nth-child(3){
 
 span{
     margin: 0 10px 20px 10px;
+    text-align: center;
+    font: 400 14px/41px Open Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
     
 }
 
@@ -483,7 +514,7 @@ div.price_Box.professional > div > div{
 }
 .contact_form-info > p:nth-child(1){
     text-align: left;
-    font: 49px/57px Raleway;
+    font: 400 49px/57px Raleway;
     letter-spacing: 0;
     color: #000000;
     margin-bottom: 22px;  
@@ -501,7 +532,7 @@ div.price_Box.professional > div > div{
 
 .contact_form-info-items > p{
     text-align: left;
-    font: Semibold 16px/22px Open Sans;
+    font: 600 16px/22px Open Sans;
     letter-spacing: 0;
     color: #A5A5A5;
 }  
@@ -524,7 +555,7 @@ div.price_Box.professional > div > div{
 
 .contact_form-filelds-items p{
     text-align: left;
-    font: Bold 11px/15px Open Sans;
+    font: 700 11px/15px Open Sans;
     letter-spacing: 3.28px;
     color: #08A6E4;
     margin-bottom: 42px;   
@@ -545,10 +576,7 @@ div.price_Box.professional > div > div{
 
 div.clause > p{
     text-align: left;
-    font-family: Open Sans;
-    font-weight: Regular;
-    font-size: 12px;
-    line-height:17px;
+    font: 400 12px/17px Open Sans;
     letter-spacing: 0;
     color: #707070;
 }
@@ -584,8 +612,10 @@ input {
 
 
 footer{
+    width: 1626px;
+    height: 89px;
     background: #F7F7F7 0% 0% no-repeat padding-box;
-    box-shadow: 0px -5px 40px #00000029;
+    box-shadow: 0px -5px 40px #00000029;    
 }
 
 .foot-container {
@@ -601,7 +631,7 @@ footer{
 
 .foot-container_names span:nth-child(1){
     text-align: left;
-    font: Light 26px/30px Raleway;
+    font: 300 26px/30px Raleway;
     letter-spacing: 0;
     color: #08A6E4;
 }
@@ -615,5 +645,4 @@ footer{
 .foot-container_icons img{
     width: 24px;
     height: 24px;
-
 }
