@@ -631,19 +631,23 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     margin: 0 136px;
+    height: 89px;
 }
 .foot-container_names {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.foot-container_names span:nth-child(1){
+.foot-container_names p:nth-child(1){
+    /* display: block; */
     text-align: left;
     font: 300 26px/30px Raleway;
     letter-spacing: 0;
     color: #08A6E4;
 }
-.foot-container_names span:nth-child(2){
+.foot-container_names p:nth-child(2){
+    /* display: block; */
     text-align: left;
     font: 400 11px/15px Open Sans;
     letter-spacing: 0;
@@ -653,4 +657,9 @@ footer{
 .foot-container_icons img{
     width: 24px;
     height: 24px;
+}
+
+.foot-container_icons{
+    display: flex;
+    align-items: center;
 }
